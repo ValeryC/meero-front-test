@@ -1,16 +1,32 @@
-import { createRouter, createWebHistory } from "vue-router"
+import Vue from "vue"
+import VueRouter from "vue-router"
 import Home from "../views/Home.vue"
+import Admin from "../views/Admin.vue"
+import Message from "../views/Message.vue"
+
+Vue.use(VueRouter)
 
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: "home",
     component: Home
+  },
+  {
+    path: "/admin",
+    name: "admin",
+    component: Admin
+  },
+  {
+    path: "/message",
+    name: "message",
+    component: Message
   }
 ]
 
-const router = createRouter({
-  history: createWebHistory(process.env.BASE_URL),
+const router = new VueRouter({
+  mode: "history",
+  base: process.env.BASE_URL,
   routes
 })
 
