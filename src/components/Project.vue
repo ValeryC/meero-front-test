@@ -84,7 +84,9 @@
         </div>
       </div>
       <div class="buttonRemonter">
-        <button class="btn btn-default btnsub" type="submit">Remonter</button>
+        <button class="btn btn-default btnsub" type="submit">
+          <a href="#top">Remonter</a>
+        </button>
       </div>
     </section>
   </div>
@@ -165,17 +167,26 @@ p {
 
 .btn {
   border-radius: 10px;
-  color: white;
+  color: #47cefe;
   width: 250px;
   height: 60px;
   font-size: 30px;
 }
 
 .btn-default {
-  background-color: #47cefe;
-  border-color: white;
+  background-color: white;
+  border-color: #47cefe;
+  margin-bottom: 50px;
 }
 .buttonRemonter {
   text-align: center;
+}
+a {
+  text-decoration: none;
+  color: #47cefe;
+}
+a:hover {
+  text-decoration: none;
+  color: #47cefe;
 }
 </style>
