@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="top">
     <b-navbar toggleable="lg" type="dark" variant>
       <b-navbar-brand href="#">
         <!-- <i class="fas fa-hotel"></i>  -->

@@ -86,9 +86,9 @@
         </div>
       </div>
       <div class="buttonRemonter">
-        <a href="#top">
-          <button class="btn btn-default btnsub" type="submit">Remonter</button>
-        </a>
+        <!-- <a href="#top"> -->
+        <button class="btn btn-default btnsub" type="submit" @click="scroll">Remonter</button>
+        <!-- </a> -->
       </div>
     </section>
   </div>
@@ -99,7 +99,12 @@ export default {
   data() {
     return {};
   },
-  methods: {}
+  methods: {
+    scroll() {
+      const element = document.getElementById("top");
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
 };
 </script>
 

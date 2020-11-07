@@ -1,5 +1,5 @@
 <template>
-  <div id="top">
+  <div>
     <div id="imageca">
       <img src="../assets/hero.jpg">
       <div class="containerText">
