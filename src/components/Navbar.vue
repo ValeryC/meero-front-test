@@ -170,10 +170,6 @@ export default {
 </script>
 
 <style scoped>
-i {
-  color: #48a9a6;
-}
-
 img {
   margin-left: 20px;
 }
@@ -183,12 +179,12 @@ img {
 }
 
 .navButton {
-  color: #beedff;
+  color: #47cefe;
   font-size: 25px;
 }
 
 .navConnexion {
-  border: 1px solid #beedff;
+  border: 1px solid #47cefe;
   border-radius: 10px;
 }
 
