@@ -2,7 +2,9 @@
   <div>
     <section>
       <div class="containerfluid">
-        <h1>Gallerie</h1>
+        <h1>
+          <a name="gal">Gallerie</a>
+        </h1>
         <p>Les réalisations de meero</p>
 
         <!--  Photos  -->
@@ -84,9 +86,9 @@
         </div>
       </div>
       <div class="buttonRemonter">
-        <button class="btn btn-default btnsub" type="submit">
-          <a href="#top">Remonter</a>
-        </button>
+        <a href="#top">
+          <button class="btn btn-default btnsub" type="submit">Remonter</button>
+        </a>
       </div>
     </section>
   </div>
@@ -104,7 +106,7 @@ export default {
 <style scoped>
 .containerfluid {
   font-family: "Roboto";
-
+  text-align: -webkit-center;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -178,6 +180,11 @@ p {
   border-color: #47cefe;
   margin-bottom: 50px;
 }
+
+button:hover {
+  color: white !important;
+  background-color: #47cefe;
+}
 .buttonRemonter {
   text-align: center;
 }
@@ -188,5 +195,38 @@ a {
 a:hover {
   text-decoration: none;
   color: #47cefe;
+}
+
+@media (min-width: 300px) and (max-width: 440px) {
+  h1 {
+    width: 116px;
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 440px) and (max-width: 530px) {
+  h1 {
+    width: 116px;
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 530px) and (max-width: 800px) {
+  h1 {
+    width: 116px;
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 22px;
+  }
 }
 </style>

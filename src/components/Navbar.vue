@@ -206,6 +206,12 @@ button:hover > i {
 .btnA {
   background-color: black;
 }
+
+.navbar-dark .navbar-toggler {
+  color: white;
+  border-color: #47cefe;
+  background-color: #47cefe;
+}
 </style>
 
 

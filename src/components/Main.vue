@@ -5,11 +5,12 @@
       <div class="containerText">
         <div class="row">
           <div class="col-xs-12 col-sm-12">
-            <h1 class="titre">Foodero</h1>
+            <h1 class="titre">Foodeero</h1>
             <div class="textr">
               <p>Food & Photography</p>
-
-              <button class="btn btn-default btnsub" type="submit">Galerie</button>
+              <a href="#gal">
+                <button class="btn btn-default btnsub" type="submit">Gallerie</button>
+              </a>
             </div>
           </div>
         </div>
@@ -55,7 +56,7 @@ h1 {
   position: absolute;
   top: 30%;
   width: 100vw;
-  text-align: center;
+  text-align: -webkit-center;
   color: white;
 
   letter-spacing: 0.1em;
@@ -76,47 +77,66 @@ h1 {
 }
 
 .btn-default:hover {
-  background-color: black;
+  background-color: white;
+  color: #47cefe !important;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
   color: white;
 }
 
 @media (min-width: 300px) and (max-width: 440px) {
   h1,
   .textr {
-    font-size: 0.3rem;
-    margin-left: auto;
-    margin-right: 5px;
+    width: 116px;
+    font-size: 18px;
   }
   .btn {
-    height: 30px;
+    height: 28px;
+    width: 92px;
+    font-size: 12px;
+  }
+  .btn-default {
+    background-color: #47cefe;
+    border-color: white;
   }
 }
 
 @media (min-width: 440px) and (max-width: 530px) {
-  h1 {
-    font-size: 0.5rem;
-  }
+  h1,
   .textr {
-    font-size: 0.2rem;
-    margin-left: auto;
-    margin-right: 34px;
+    width: 116px;
+    font-size: 22px;
   }
   .btn {
-    height: 37px;
+    height: 34px;
+    width: 96px;
+    font-size: 14px;
+  }
+  .btn-default {
+    background-color: #47cefe;
+    border-color: white;
   }
 }
 
 @media (min-width: 530px) and (max-width: 800px) {
-  h1 {
-    font-size: 1rem;
-  }
+  h1,
   .textr {
-    font-size: 0.8rem;
-    margin-left: auto;
-    margin-right: 34px;
+    font-size: 44px;
   }
   .btn {
-    height: 37px;
+    height: 34px;
+    width: 96px;
+    font-size: 14px;
+  }
+  .btn-default {
+    background-color: #47cefe;
+    border-color: white;
   }
 }
 </style>
