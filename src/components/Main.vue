@@ -8,9 +8,8 @@
             <h1 class="titre">Foodeero</h1>
             <div class="textr">
               <p>Food & Photography</p>
-              <a href="#gal">
-                <button class="btn btn-default btnsub" type="submit">Gallerie</button>
-              </a>
+
+              <button class="btn btn-default btnsub" type="submit" @click="scroll">Gallerie</button>
             </div>
           </div>
         </div>
@@ -21,7 +20,13 @@
 
 <script>
 export default {
-  name: "Main"
+  name: "Main",
+  methods: {
+    scroll() {
+      const element = document.getElementById("gallery");
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  }
 };
 </script>
 

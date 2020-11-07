@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div id="gallery">
     <section>
       <div class="containerfluid">
         <h1>
-          <a name="gal">Gallerie</a>
+          <a>Gallerie</a>
         </h1>
         <p>Les réalisations de meero</p>
 
