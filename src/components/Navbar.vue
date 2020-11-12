@@ -123,7 +123,7 @@ export default {
       this.show = false;
       evt.preventDefault();
       switch (this.title) {
-        case "Contact":
+        case "Send Message":
           db.collection("messages")
             .add({ message: this.form.message, email: this.form.email })
             .then(() => {

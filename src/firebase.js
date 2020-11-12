@@ -6,13 +6,13 @@ require("firebase/functions")
 
 // Your web app's Firebase configuration
 var firebaseConfig = {
-  apiKey: "AIzaSyDVGlP79MrLr9Umi9l2x-AkIWmtjGEehPs",
-  authDomain: "hostel-booking-d534e.firebaseapp.com",
-  databaseURL: "https://hostel-booking-d534e.firebaseio.com",
-  projectId: "hostel-booking-d534e",
-  storageBucket: "hostel-booking-d534e.appspot.com",
-  messagingSenderId: "149872969111",
-  appId: "1:149872969111:web:6885244196ca05d8ed70d2"
+  apiKey: "AIzaSyBhXF-CJbT1S6bmmtROo3rMqAeJmCYO_3U",
+  authDomain: "message-d4f7b.firebaseapp.com",
+  databaseURL: "https://message-d4f7b.firebaseio.com",
+  projectId: "message-d4f7b",
+  storageBucket: "message-d4f7b.appspot.com",
+  messagingSenderId: "258001514907",
+  appId: "1:258001514907:web:871d6b916f4b952398313e"
 }
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig)
