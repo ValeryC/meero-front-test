@@ -4,7 +4,7 @@
       <b-navbar-brand href="#">
         <i class="fas fa-hotel"></i>
         <!-- <img :src="require('../assets/nestor.jpg')" height="20px" width="20px"> -->
-        Nestor reservation App
+        App
       </b-navbar-brand>
 
       <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>

@@ -35,11 +35,13 @@ export default {
   margin: 0;
   position: relative;
   background-color: black;
+  border: none;
 }
 
 #imageca img {
   width: 100vw;
   opacity: 0.8;
+  border: none;
 }
 
 h1 {
@@ -60,7 +62,7 @@ h1 {
   -webkit-text-stroke-color: white;
   position: absolute;
   top: 30%;
-  width: 100vw;
+  width: 99.1vw;
   text-align: -webkit-center;
   color: white;
 
