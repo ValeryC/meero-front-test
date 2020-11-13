@@ -63,12 +63,10 @@ h1 {
   position: absolute;
   top: 50%;
   left: 50%;
-
   transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
   width: auto;
   text-align: -webkit-center;
   color: white;
-
   letter-spacing: 0.1em;
   font-family: Roboto;
 }
