@@ -61,8 +61,11 @@ h1 {
   -webkit-text-stroke: 1px;
   -webkit-text-stroke-color: white;
   position: absolute;
-  top: 30%;
-  width: 99.1vw;
+  top: 50%;
+  left: 50%;
+
+  transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+  width: auto;
   text-align: -webkit-center;
   color: white;
 
